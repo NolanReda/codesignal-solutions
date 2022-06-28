@@ -1,4 +1,3 @@
-function solution(year) {
-  return Math.ceil(year / 100);
-
+function solution(param1, param2) {
+  return param1 + param2;
 }
