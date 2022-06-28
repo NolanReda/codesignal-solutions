@@ -6,7 +6,6 @@ function solution(inputString) {
   for (let i = 0; i < split.length; i++) {
     var secondSplit = split[i].split('').join('');
     newArr.push(secondSplit);
-    console.log(newArr);
     forward = newArr.join('');
     reverse = forward.split('').reverse().join('');
   }
@@ -16,3 +15,5 @@ function solution(inputString) {
     return false;
   }
 }
+
+solution('racecar');
