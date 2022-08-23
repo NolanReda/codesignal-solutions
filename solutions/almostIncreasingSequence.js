@@ -1,4 +1,4 @@
-function solution(sequence) {
+function almostIncreasingSequence(sequence) {
   let invalidItemsCount = 0;
 
   for (let i = 1; i < sequence.length; i++) {
